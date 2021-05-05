@@ -20,5 +20,6 @@ database: scripts for creating the user database
 * create\_user\_db.R creates the final database of users and user meta data
 
 spatial_data: county-level data and scripts for merging it together
-* spatial_data\raw_data containes .csv and .xlsx files from various national databases
+* spatial_data\raw_data contains .csv and .xlsx files from various national databases
 * spatial_data_compile.R cleans and merges these data by county FIPS code and produces merged_data.csv
+* create_user_location_db.R matches users to locations using reference files above
